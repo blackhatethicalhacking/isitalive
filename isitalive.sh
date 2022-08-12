@@ -67,10 +67,10 @@ do
     fi
 done
 echo -e ""
-echo -e "$BLUE  Valid Subdomains are saved to: output/valid-$FILENAME"
-echo -e "$BLUE  Invalid Subdomains saved to: output/notvalid-$FILENAME"
+echo -e "$BLUE  Valid hosts/ips/subdomains are saved here: output/valid-$FILENAME"
+echo -e "$BLUE  Invalid hosts/ips/subdomains are saved here: output/notvalid-$FILENAME"
 vcounter=$(cat $CURRENT_PATH/output/valid-$FILENAME | sort -u | wc -l )
 fcounter=$(cat $CURRENT_PATH/output/notvalid-$FILENAME | sort -u | wc -l )
 orgcounter=$(cat $TARGET | sort -u | wc -l )
-echo -e "$RED   TOTAL DOMAINS : ${orgcounter} , ALIVE : ${vcounter} , DOWN : ${fcounter}" | lolcat
+echo -e "$RED   TOTAL HOSTS : ${orgcounter} , ALIVE : ${vcounter} , DOWN : ${fcounter}" | lolcat
 echo -e "$BLUE + ------------------------------=[Awesome! Operation Complete, you know what to do now!]=------------------------------------- +" | lolcat
