@@ -13,7 +13,8 @@ This tool will resolve a list of Domains, IPs, Hosts, URLs and save the results 
 
 # What is isitalive.sh?
 
-This tool is designed for Bug Bounty Hunters, Pentesters & Red teams with speed in mind. When performing Recon, depending on the tools you will use, even if passive or active techniques are used, you will end up with huge lists of IP addresses, Hosts, URLs, Subdomains. But as we know Bug Bounty is all about time management and working smart. From these hosts/Urls/IPs especially if they are huge, we know that many are either from the wayback machine, or any source, that often are not alive or no longer available, so using this tool, on any of these will immediately probe them and save them into two files, Valid and Invalid so that you can work more efficiently and never waste time on hosts that are no longer valid!
+This tool is designed for Bug Bounty Hunters, Pentesters & Red teams with speed in mind. When performing Recon, depending on the tools you will use, even if passive or active techniques are used, you will end up with huge lists of IP addresses, Hosts, URLs, and Subdomains. But as we know Bug Bounty is all about time management and working smart. From these hosts/Urls/IPs especially if they are huge, we know that many are either from the Wayback machine, or any source, that often is not alive or no longer available, so using this tool, on any of these will immediately probe them and save them into two files, Valid and Invalid so that you can work more efficiently and never waste time on hosts that are no longer valid!
+
 
 # Installation
 
