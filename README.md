@@ -47,7 +47,7 @@ It will then start probing and saving in realtime the results under **output** w
 
 **Main Menu**
 
-![alt text](https://i.ibb.co/jDqZr9x/Screenshot-2022-08-12-at-1-57-04-PM.png)
+![image](https://user-images.githubusercontent.com/13942386/185679775-a6bbff96-ef9c-4ba4-9813-8acabdc58b6f.png)
 
 # Compatibility
 
